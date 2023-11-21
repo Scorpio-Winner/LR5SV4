@@ -14,17 +14,13 @@ const OrderDetails = ({ order }) => {
                     <b>Status:</b> {order.status}
                 </p>
                 <p className={cl.detail}>
-                    <b>Creation date:</b> {order.creationDate}
+                    <b>Quantity:</b> {order.quantity}
                 </p>
                 <p className={cl.detail}>
                     <b>Customer:</b> {order.customer}
                 </p>
                 <p className={cl.detail}>
-                    <b>Complete time:</b> {order.completeTime}
-                </p>
-                <p className={cl.detail}>
-                    <b>Description:</b><br/>
-                    {order.description}
+                    <b>Product Type:</b> {order.productType}
                 </p>
             </div>
         </div>

@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className={classes.footer}>
             <a
                 className={classes.footerLink}
-                href="https://github.com/Ovsyannikov345"
+                href="https://github.com/Scorpio-Winner"
                 target="_blank"
                 rel="noreferrer"
             >
