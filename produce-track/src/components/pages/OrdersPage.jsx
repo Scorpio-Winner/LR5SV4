@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Header from "../UI/Header";
 import OrderList from "../UI/OrderList";
 import Footer from "../UI/Footer";
-import Modal from "../../commons/Modal/Modal";
+import Modal from "./commons/Modal/Modal";
 import OrderDetails from "../UI/OrderDetails";
 
 import classes from "../../styles/OrdersPage.css";

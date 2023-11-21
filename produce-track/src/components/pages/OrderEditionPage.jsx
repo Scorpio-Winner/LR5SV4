@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import Header from "../UI/Header";
-import OrderForm from "../../commons/OrderForm/OrderForm";
+import OrderForm from "./commons/OrderForm/OrderForm";
 import Footer from "../UI/Footer";
 
 import classes from "../../styles/OrderEditionPage.css";

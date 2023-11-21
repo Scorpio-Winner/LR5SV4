@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../UI/Header";
 import Footer from "../UI/Footer";
-import OrderForm from "../../commons/OrderForm/OrderForm";
+import OrderForm from "./commons/OrderForm/OrderForm";
 
 import classes from "../../styles/OrderCreationPage.css";
 

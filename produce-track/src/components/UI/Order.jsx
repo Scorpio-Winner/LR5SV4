@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Button from "./UI/Button/Button";
+import Button from "../pages/commons/Button/Button";
 
 import classes from "../../styles/Order.css";
 
