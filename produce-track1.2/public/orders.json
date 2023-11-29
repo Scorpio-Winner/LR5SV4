@@ -1,31 +1,49 @@
 {
     "orders": [
-        {
-            "id": 1,
-            "title": "Assembly",
-            "status": "In progress",
-            "creationDate": "2023-11-04",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "customer": "Some building",
-            "completeTime": "15 days"
-        },
-        {
-            "id": 2,
-            "title": "Fix",
-            "status": "Complete",
-            "creationDate": "2023-09-20",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "customer": "Government",
-            "completeTime": "6 days"
-        },
-        {
-            "id": 3,
-            "title": "Fix",
-            "status": "Waiting",
-            "creationDate": "2023-11-02",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "customer": "Government",
-            "completeTime": "unknown"
+    {
+        "id": 1,
+        "title": "Production",
+        "status": "In progress",
+        "creationDate": "2023-11-04",
+        "description": "This order is for the production of industrial machinery. It involves manufacturing various components and assembling them according to the provided specifications. The production process includes machining, welding, and quality control inspections.",
+        "customer": "ABC Manufacturing",
+        "completeTime": "15 days"
+    },
+    {
+        "id": 2,
+        "title": "Maintenance",
+        "status": "Complete",
+        "creationDate": "2023-09-20",
+        "description": "This order is for the maintenance of existing equipment at a power plant. It includes inspecting and repairing electrical systems, conducting preventive maintenance tasks, and ensuring the smooth operation of the machinery. The maintenance work was carried out successfully, and all necessary repairs were completed within the specified timeframe.",
+        "customer": "XYZ Power Plant",
+        "completeTime": "6 days"
+    },
+    {
+        "id": 3,
+        "title": "Installation",
+        "status": "Waiting",
+        "creationDate": "2023-11-02",
+        "description": "This order is for the installation of a new conveyor system in a manufacturing facility. The system will improve the efficiency of material handling and streamline the production process. The installation team is currently waiting for the delivery of the equipment and will commence work as soon as it arrives. The estimated completion time is yet to be determined.",
+        "customer": "123 Manufacturing Company",
+        "completeTime": "unknown"
+    },
+    {
+        "id": 4,
+        "title": "Customization",
+        "status": "Pending",
+        "creationDate": "2023-11-15",
+        "description": "This order is for the customization of industrial robots. The robots will be programmed and modified to perform specific tasks according to the customer's requirements. The customization process involves software development, integration of additional sensors, and testing to ensure optimal performance. The order is currently pending, awaiting final approval from the customer.",
+        "customer": "DEF Robotics",
+        "completeTime": "10 days"
+    },
+    {
+        "id": 5,
+        "title": "Repair",
+        "status": "In progress",
+        "creationDate": "2023-11-22",
+        "description": "This order is for the repair of a malfunctioning conveyor belt in a factory. The repair team has identified the issue and is currently replacing damaged components and conducting necessary adjustments. The goal is to restore the conveyor belt's functionality and minimize downtime for the production line.",
+        "customer": "GHI Manufacturing",
+        "completeTime": "3 days"
         }
     ]
 }

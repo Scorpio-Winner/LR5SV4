@@ -4,13 +4,13 @@
     align-items: center;
     padding: 10px 15px;
     border-radius: 10px;
-    background-color: #D7CEC7;
+    background-color: #b4a9d8;
     font-size: 17px;
 }
 
 .button:hover {
     cursor: pointer;
-    background-color: #b9b1ab;
+    background-color: #867da6;
 }
 
 .button:active {
